@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title id="title">Guest List</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<center>
+<h2 style="margin-top: 20px; margin-bottom: 20px; " id="title2">
+	Guest List
+</h2>
+
+
+<div id="rows">
+
+<input type="text" placeholder="Enter Name" id="name1">
+<button onclick="submit()" id="submit_button">Submit Name</button>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<hr>
+
+<div id="display_name">
+</div>
+<hr>
+	<div id="Show1"><h2 id="hd1">Guest List</h2>
+		<button onclick="show()" id="show">Show Names</button>
+		<hr>
+		<p id="p1"></p></div>
+	
+<hr>
+<button onclick="sorting()" id="sort_button">
+	Sort List
+</button>
+
+
+	<div id="sorted"></div>
+    </div>
+	<hr>
+	<input type="text" placeholder="Search Name" id="s1">&nbsp;<h3>You have to spell the name exactly how you spelled it before for it to work!</h3>
+	<button onclick="searching()" id="srch">Search Name</button>
+	<h3 id="p2" style="color:teal;
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 20px;"></h3>
+    
+</center>
+		
+</body>
+</html>
